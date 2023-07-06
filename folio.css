@@ -232,3 +232,24 @@ font-size: 20px;
     background-color: black;
     color: white;
 }
+
+
+
+
+     /*ADDING RESPONSIVE TO EVERY WHERE*/
+
+
+     @media only screen and (max-width: 600px) {
+        .menu-container{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .menu-bar{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 70%;
+        }
+    
+      }
