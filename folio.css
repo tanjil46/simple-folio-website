@@ -99,3 +99,33 @@ font-size: 20px;
 
 
 
+/*STYLING STATRS OF ABOUTE US*/
+      .title{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+      }
+
+
+      .img-learn img{
+        width: 350px;
+      }
+
+
+      .about-container{
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .my-para{
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+          .all-para{
+            margin-bottom: 10px;
+          }
+
+/*STYLING STATRS OF ABOUT US*/
+
