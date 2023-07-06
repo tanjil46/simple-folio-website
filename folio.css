@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
     
 text-decoration: none;
 }
@@ -117,6 +118,7 @@ font-size: 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: white;
       }
 
       .my-para{
@@ -129,3 +131,104 @@ font-size: 20px;
 
 /*STYLING STATRS OF ABOUT US*/
 
+/*STYLE OF CARDS START*/
+       .card-container{
+        height: 60vh;
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    
+       
+       }
+
+       .card1{
+        text-align: center;
+        width: 180px;
+        border: 1px solid black;
+       
+        border-radius: 30px;
+        padding: 15px;
+        box-shadow:   4px 6px 8px 8px white;
+       }
+
+       .service{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+       }
+       .back{
+        background-color: black;
+       }
+
+
+       .star{
+        width: 80px;
+        
+        
+       }
+
+       .card-title{
+        font-weight: bold;
+        margin: 10px 0;
+       }
+       
+       .card-info{
+        text-align: justify;
+       }
+
+       .card1:hover{
+        box-shadow: 4px 6px 8px white;
+       }
+
+/*style of cards ends*/
+
+
+
+
+.add-container{
+    background-color: rgba(80, 76, 76, 0.342);
+    color:black;
+    display: flex;
+    justify-content:space-around;
+    height: 40vh;
+    align-items: center;
+    
+    
+}
+
+
+    
+
+
+.link22 ul li a{
+    color: black;
+    
+    
+}
+
+.link22 ul li{
+    margin: 10px 0;
+}
+
+.geek{
+    margin-bottom: 10px;
+}
+
+
+.add-bar{
+    margin-bottom: 15px;
+}
+
+.copy{
+    text-align: center;
+}
+
+.link22 ul li a:hover{
+    background-color: black;
+    color: white;
+}
