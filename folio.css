@@ -6,6 +6,9 @@
 text-decoration: none;
 }
 
+
+/*STYLING STATRS OF NAVBAR*/
+
 .logo img{
     width: 100px;
     background-color: rgb(199, 189, 189);
@@ -41,3 +44,58 @@ font-size: 20px;
     background-color: aliceblue;
     border-radius: 30px;
 }
+
+
+/*STYLING ENDS OF NAVBAR*/
+
+
+/*BANNER SECTION STYLING STATRS*/
+.banner-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./1129018.jpg"),linear-gradient(45deg,rgba(14, 9, 9, 0.514),black);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+}
+.para{
+    font-size: 55px;
+    margin: 5px 0;
+}
+.para-de{
+    margin: 15px 0;
+}
+
+.btn{
+    margin:10px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 0.6rem;
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+}
+.img {
+    border-radius: 0.6rem;
+    width: 300px;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+.img:hover{
+    transform: rotate(45deg);
+}
+
+/*BANNER SECTION STYLING ENDS*/
+
+
+
+
+
